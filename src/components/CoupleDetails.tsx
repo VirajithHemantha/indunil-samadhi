@@ -20,7 +20,6 @@ export const CoupleDetails: React.FC = () => {
           </div>
           <h2 className="text-5xl sm:text-7xl font-display text-stone-800 tracking-tight drop-shadow-sm flex flex-col items-center gap-4">
             <span>Indunil <span className="italic text-brand-sakura-deep font-light mx-2">&</span> Samadhi</span>
-            <span className="text-3xl sm:text-5xl font-sinhala">ඉඳුනිල් <span className="italic text-brand-sakura-deep font-light mx-2">&</span> සමාධි</span>
           </h2>
         </motion.div>
       </div>
@@ -35,14 +34,12 @@ export const CoupleDetails: React.FC = () => {
           className="text-center lg:text-right flex-1 lg:pr-10"
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
-            <span className="text-brand-sakura-deep uppercase tracking-widest text-[10px] font-bold mb-2 block">The Groom | මනාලයා</span>
+            <span className="text-brand-sakura-deep uppercase tracking-widest text-[10px] font-bold mb-2 block">The Groom</span>
             <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm flex flex-col items-center lg:items-end gap-2">
               <span>Indunil</span>
-              <span className="text-2xl sm:text-3xl font-sinhala">ඉඳුනිල්</span>
             </h3>
             <div className="text-stone-800 font-serif italic font-bold text-base sm:text-lg flex flex-col items-center lg:items-end gap-1">
               <span>Son of Mr. K.M Nimal & Mrs. H.B Indrani</span>
-              <span className="text-sm sm:text-base font-sinhala not-italic text-right">K.M නිමල් මහතාගේ සහ H.B ඉන්ද්‍රාණි මහත්මියගේ පුතණුවන්</span>
             </div>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
@@ -72,14 +69,12 @@ export const CoupleDetails: React.FC = () => {
           className="text-center lg:text-left flex-1 lg:pl-10"
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
-            <span className="text-brand-sakura-deep uppercase tracking-widest text-[10px] font-bold mb-2 block">The Bride | මනාලිය</span>
+            <span className="text-brand-sakura-deep uppercase tracking-widest text-[10px] font-bold mb-2 block">The Bride</span>
             <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm flex flex-col items-center lg:items-start gap-2">
               <span>Samadhi</span>
-              <span className="text-2xl sm:text-3xl font-sinhala">සමාධි</span>
             </h3>
             <div className="text-stone-800 font-serif italic font-bold text-base sm:text-lg flex flex-col items-center lg:items-start gap-1">
-              <span>Daughter of Mr. W.L Wijesinghe & Mrs. K.A Gunarathna</span>
-              <span className="text-sm sm:text-base font-sinhala not-italic text-left">W.L විජේසිංහ මහතාගේ සහ K.A ගුණරත්න මහත්මියගේ දියණිය</span>
+              <span>Daughter of Mr. K.A Gunarathna & Mrs. W.L Wijesinghe</span>
             </div>
           </div>
           <div className="hidden lg:flex justify-start mt-8">

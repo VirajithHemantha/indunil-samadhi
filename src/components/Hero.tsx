@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
           </div>
 
           <span className="text-brand-sakura-deep uppercase tracking-[0.4em] sm:tracking-[0.6em] text-xs sm:text-sm font-medium mb-6 sm:mb-10 block drop-shadow-sm font-sans">
-            Lovely wedding ceremony | ආදරණීය විවාහ මංගල උත්සවය
+            Lovely wedding ceremony
           </span>
 
           <div className="relative mb-8 sm:mb-12 w-full flex justify-center">
@@ -69,9 +69,6 @@ export const Hero: React.FC = () => {
                 <span className="text-brand-sakura-deep italic font-light text-5xl sm:text-[6rem] lg:text-[8rem] inline-block">&</span>
                 <span>Samadhi</span>
               </div>
-              <div className="text-3xl sm:text-5xl lg:text-6xl font-sinhala text-stone-800 tracking-tight mt-4 sm:mt-8">
-                ඉඳුනිල් <span className="text-brand-sakura-deep italic font-light mx-2">&</span> සමාධි
-              </div>
             </h1>
           </div>
 
@@ -80,9 +77,6 @@ export const Hero: React.FC = () => {
             <div className="px-4 text-center max-w-xl space-y-4">
               <p className="text-[1.1rem] sm:text-2xl font-serif italic text-stone-700 tracking-wide leading-relaxed drop-shadow-[0_1px_2px_rgba(255,255,255,0.5)]">
                 Together with our families, we joyfully invite you to join us
-              </p>
-              <p className="text-lg sm:text-xl font-sinhala text-stone-600 leading-relaxed">
-                අපගේ පවුල් වල සාමාජිකයින් සමඟ එක්ව, අපගේ විවාහ මංගල උත්සවය සඳහා අප ඔබව මහත් ප්‍රීතියෙන් යුතුව ආරාධනා කර සිටිනවා.
               </p>
             </div>
             <div className="hidden sm:block h-[1px] w-20 bg-gradient-to-l from-transparent to-brand-sakura-deep/40" />

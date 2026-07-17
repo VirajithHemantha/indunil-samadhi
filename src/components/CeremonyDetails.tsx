@@ -44,7 +44,6 @@ export const CeremonyDetails: React.FC = () => {
                 <div>
                   <h4 className="font-sans text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500 flex flex-col sm:flex-row sm:items-baseline gap-2">
                     <span>Thursday, August 27</span>
-                    <span className="text-xl sm:text-2xl font-sinhala">අගෝස්තු 27 බ්‍රහස්පතින්දා</span>
                   </h4>
                   <p className="text-stone-500/80 text-[14px] sm:text-[16px] uppercase tracking-[0.4em] font-bold">2026</p>
                 </div>
@@ -58,10 +57,8 @@ export const CeremonyDetails: React.FC = () => {
                 <div>
                   <h4 className="font-sans text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500 flex flex-col sm:flex-row sm:items-baseline gap-2">
                     <span>09:00 AM - 04:00 PM</span>
-                    <span className="text-xl sm:text-2xl font-sinhala">පෙ.ව. 09:00 - ප.ව. 04:00</span>
                   </h4>
                   <p className="text-stone-500/80 text-[12px] sm:text-[14px] uppercase tracking-normal font-bold mt-1">Poruwa 9:44 AM</p>
-                  <p className="text-stone-500/80 text-[14px] sm:text-[16px] uppercase tracking-normal font-bold font-sinhala mt-1">පෝරුවේ චාරිත්‍රය - 9:44 AM</p>
                 </div>
               </div>
 
@@ -73,9 +70,8 @@ export const CeremonyDetails: React.FC = () => {
                 <div>
                   <h4 className="font-sans text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500 flex flex-col sm:flex-row sm:items-baseline gap-2">
                     <span>Lavenro garden</span>
-                    <span className="text-xl sm:text-2xl font-sinhala">ලැවෙන්රෝ ගාඩ්න්</span>
                   </h4>
-                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-normal font-bold">Sri Lanka | ශ්‍රී ලංකාව</p>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-normal font-bold">Sri Lanka</p>
                 </div>
               </div>
             </div>

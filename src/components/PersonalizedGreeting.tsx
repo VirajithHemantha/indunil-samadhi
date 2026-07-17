@@ -19,12 +19,13 @@ export const PersonalizedGreeting: React.FC = () => {
       setPrefixStr(prefix);
 
       // Mapping
-      if (prefix === "Mr.") setGreeting("ඔබට");
-      else if (prefix === "Mrs.") setGreeting("ඔබට");
-      else if (prefix === "Dear") setGreeting("ඔබට");
-      else if (prefix === "Mr. & Mrs.") setGreeting("ඔබ දෙපළට");
-      else if (prefix === "Family") setGreeting("ඔබ සැමට");
-      else setGreeting("ඔබට");
+      if (prefix === "Mr.") setGreeting("Dear");
+      else if (prefix === "Mrs.") setGreeting("Dear");
+      else if (prefix === "Miss") setGreeting("Dear");
+      else if (prefix === "Dear") setGreeting("Dear");
+      else if (prefix === "Mr. & Mrs.") setGreeting("Dear");
+      else if (prefix === "Family") setGreeting("Dear");
+      else setGreeting("Dear");
     }
   }, []);
 
@@ -60,7 +61,7 @@ export const PersonalizedGreeting: React.FC = () => {
         <div className="inline-flex items-center gap-4 mb-6">
           <div className="w-8 sm:w-12 h-[1px] bg-gradient-to-r from-transparent to-brand-sakura-deep/60" />
           <p className="text-[10px] sm:text-xs uppercase tracking-[0.3em] text-brand-sakura-deep font-bold font-sans drop-shadow-sm">
-            සුහද ආරාධනයයි!
+            WE CORDIALLY INVITE
           </p>
           <div className="w-8 sm:w-12 h-[1px] bg-gradient-to-l from-transparent to-brand-sakura-deep/60" />
         </div>
@@ -72,12 +73,10 @@ export const PersonalizedGreeting: React.FC = () => {
           </span>
         </h2>
 
-        <div className="font-sinhala text-lg sm:text-2xl text-stone-700 leading-relaxed space-y-4">
+        <div className="font-serif text-lg sm:text-2xl text-stone-700 leading-relaxed space-y-4">
           <p className="text-brand-sakura-deep font-bold text-xl sm:text-3xl">{greeting},</p>
           <p className="max-w-md mx-auto">
-            අපගේ විවාහ මංගල්‍ය දිනයේ<br/>
-            සතුට ඔබ සමඟ බෙදා ගැනීමට<br/>
-            ආදරයෙන් ආරාධනා කරමු.
+            We joyfully invite you to share in our happiness on our wedding day.
           </p>
         </div>
       </motion.div>

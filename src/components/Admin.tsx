@@ -6,7 +6,7 @@ export const Admin: React.FC = () => {
   const [generatedLink, setGeneratedLink] = useState('');
   const [fullMessage, setFullMessage] = useState('');
 
-  const prefixes = ['Mr.', 'Mrs.', 'Mr. & Mrs.', 'Family', 'Dear'];
+  const prefixes = ['Mr.', 'Mrs.', 'Miss', 'Mr. & Mrs.', 'Family', 'Dear'];
 
   const generate = () => {
     if (!guestName.trim()) return;
@@ -15,7 +15,7 @@ export const Admin: React.FC = () => {
     const link = `${window.location.origin}/?prefix=${encodeURIComponent(prefix)}&guest=${encodeURIComponent(formattedName)}`;
     setGeneratedLink(link);
 
-    const msg = `Dear ${prefix} ${guestName} ❤️\n\nWith joyful hearts, we warmly invite you and your family to celebrate one of the most special days of our lives as we begin our journey together.\n\nPlease view our wedding invitation and all the event details through the link below 🌐:\n\n${link}\n\nYour presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.\n\nWith love,\n❤️ Indunil & Samadhi`;
+    const msg = `Dear ${prefix} ${guestName} ❤️\n\nWith joyful hearts, we warmly invite you  to celebrate one of the most special days of our lives as we begin our journey together.\n\nPlease view our wedding invitation and all the event details through the link below 🌐:\n\n${link}\n\nYour presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.\n\nWith love,\n❤️ Indunil & Samadhi`;
     setFullMessage(msg);
   };
 
@@ -48,7 +48,7 @@ export const Admin: React.FC = () => {
             <label className="block text-[11px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">Guest Name</label>
             <input 
               type="text" 
-              placeholder="e.g. Sanjaya Perera" 
+              placeholder="e.g. Sanjaya" 
               value={guestName}
               onChange={(e) => setGuestName(e.target.value)}
               className="w-full bg-stone-50/50 px-6 py-4 rounded-full border border-stone-200 focus:outline-none focus:ring-2 focus:ring-brand-sakura/50 font-serif text-lg text-stone-700 shadow-inner placeholder:text-stone-300"
