@@ -56,9 +56,7 @@ export const Footer: React.FC = () => {
           <div className="text-[10px] sm:text-xs text-stone-400 font-bold uppercase tracking-[0.3em]">
             With all our love 💕
           </div>
-          <div className="text-[12px] sm:text-sm text-stone-500 font-sans">
-            Samadhi: 0703310616 | Hotel: 0362030500
-          </div>
+
           <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium mt-2">
             © 2026 Indunil & Samadhi Wedding
           </div>
