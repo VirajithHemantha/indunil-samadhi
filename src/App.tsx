@@ -26,6 +26,16 @@ export default function App() {
 
   const weddingDate = new Date('2026-08-27T09:00:00');
 
+  useEffect(() => {
+    if (showMain && audioRef.current && !isMusicPlaying) {
+      audioRef.current.play().then(() => {
+        setIsMusicPlaying(true);
+      }).catch(err => {
+        console.log("Audio auto-play blocked: ", err);
+      });
+    }
+  }, [showMain, isMusicPlaying]);
+
   const toggleMusic = () => {
     if (audioRef.current) {
       if (isMusicPlaying) {
